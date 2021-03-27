@@ -85,7 +85,7 @@ namespace MultiServerCSThread
         public void ThreadConnect()
         {
             Socket sock = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
-            IPEndPoint ep = new IPEndPoint(IPAddress.Any, 5678);
+            IPEndPoint ep = new IPEndPoint(IPAddress.Any, 56789);
 
             sock.Bind(ep);
             sock.Listen(3);

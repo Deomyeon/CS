@@ -14,3 +14,19 @@ C:\Users\ROG\Desktop\C#\MultiServerCSThread\obj\Debug\net5.0\MultiServerCSThread
 C:\Users\ROG\Desktop\C#\MultiServerCSThread\obj\Debug\net5.0\ref\MultiServerCSThread.dll
 C:\Users\ROG\Desktop\C#\MultiServerCSThread\obj\Debug\net5.0\MultiServerCSThread.pdb
 C:\Users\ROG\Desktop\C#\MultiServerCSThread\obj\Debug\net5.0\MultiServerCSThread.genruntimeconfig.cache
+C:\Users\ROG\Desktop\VS CODE\C#\MultiServerCSThread\bin\Debug\net5.0\MultiServerCSThread.exe
+C:\Users\ROG\Desktop\VS CODE\C#\MultiServerCSThread\bin\Debug\net5.0\MultiServerCSThread.deps.json
+C:\Users\ROG\Desktop\VS CODE\C#\MultiServerCSThread\bin\Debug\net5.0\MultiServerCSThread.runtimeconfig.json
+C:\Users\ROG\Desktop\VS CODE\C#\MultiServerCSThread\bin\Debug\net5.0\MultiServerCSThread.runtimeconfig.dev.json
+C:\Users\ROG\Desktop\VS CODE\C#\MultiServerCSThread\bin\Debug\net5.0\MultiServerCSThread.dll
+C:\Users\ROG\Desktop\VS CODE\C#\MultiServerCSThread\bin\Debug\net5.0\ref\MultiServerCSThread.dll
+C:\Users\ROG\Desktop\VS CODE\C#\MultiServerCSThread\bin\Debug\net5.0\MultiServerCSThread.pdb
+C:\Users\ROG\Desktop\VS CODE\C#\MultiServerCSThread\obj\Debug\net5.0\MultiServerCSThread.csprojAssemblyReference.cache
+C:\Users\ROG\Desktop\VS CODE\C#\MultiServerCSThread\obj\Debug\net5.0\MultiServerCSThread.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ROG\Desktop\VS CODE\C#\MultiServerCSThread\obj\Debug\net5.0\MultiServerCSThread.AssemblyInfoInputs.cache
+C:\Users\ROG\Desktop\VS CODE\C#\MultiServerCSThread\obj\Debug\net5.0\MultiServerCSThread.AssemblyInfo.cs
+C:\Users\ROG\Desktop\VS CODE\C#\MultiServerCSThread\obj\Debug\net5.0\MultiServerCSThread.csproj.CoreCompileInputs.cache
+C:\Users\ROG\Desktop\VS CODE\C#\MultiServerCSThread\obj\Debug\net5.0\MultiServerCSThread.dll
+C:\Users\ROG\Desktop\VS CODE\C#\MultiServerCSThread\obj\Debug\net5.0\ref\MultiServerCSThread.dll
+C:\Users\ROG\Desktop\VS CODE\C#\MultiServerCSThread\obj\Debug\net5.0\MultiServerCSThread.pdb
+C:\Users\ROG\Desktop\VS CODE\C#\MultiServerCSThread\obj\Debug\net5.0\MultiServerCSThread.genruntimeconfig.cache

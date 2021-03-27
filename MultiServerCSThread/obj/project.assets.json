@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ROG\\Desktop\\C#\\MultiServerCSThread\\MultiServerCSThread.csproj",
+      "projectUniqueName": "C:\\Users\\ROG\\Desktop\\VS CODE\\C#\\MultiServerCSThread\\MultiServerCSThread.csproj",
       "projectName": "MultiServerCSThread",
-      "projectPath": "C:\\Users\\ROG\\Desktop\\C#\\MultiServerCSThread\\MultiServerCSThread.csproj",
+      "projectPath": "C:\\Users\\ROG\\Desktop\\VS CODE\\C#\\MultiServerCSThread\\MultiServerCSThread.csproj",
       "packagesPath": "C:\\Users\\ROG\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ROG\\Desktop\\C#\\MultiServerCSThread\\obj\\",
+      "outputPath": "C:\\Users\\ROG\\Desktop\\VS CODE\\C#\\MultiServerCSThread\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

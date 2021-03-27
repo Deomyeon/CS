@@ -12,7 +12,7 @@ namespace ClientCSThread
         {
             Socket clientSock = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
 
-            var ep = new IPEndPoint(IPAddress.Parse("127.0.0.1"), 5678);
+            var ep = new IPEndPoint(IPAddress.Parse("127.0.0.1"), 56789);
             clientSock.Connect(ep);
 
 
