@@ -47,20 +47,11 @@ namespace ClientCSThread
 
         public void ThreadReceive()
         {
-            int nbytes = 0;
             string output;
             while (clientSock.Connected)
             {
                 clientSock.Receive(outbuf, 0, outbuf.Length, SocketFlags.None);
-                for (int i = 0; i < outbuf.Length; i++)
-                {
-                    if (outbuf[i] == 0)
-                    {
-                        nbytes = i;
-                        break;
-                    }
-                }
-                output = Encoding.Default.GetString(outbuf, 0, nbytes);
+                output = Encoding.Default.GetString(outbuf, 0, outbuf.Length);
 
                 Console.WriteLine($"서버 : {output}");
                 Array.Clear(outbuf, 0x0, outbuf.Length);

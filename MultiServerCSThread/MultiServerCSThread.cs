@@ -112,19 +112,10 @@ namespace MultiServerCSThread
         }
         public void ThreadReceive()
         {
-            int nbytes = 0;
             while (clientSock.Connected)
             {
                 clientSock.Receive(buff, 0, buff.Length, SocketFlags.None);
-                for (int i = 0; i < buff.Length; i++)
-                {
-                    if (buff[i] == 0)
-                    {
-                        nbytes = i;
-                        break;
-                    }
-                }
-                output = Encoding.Default.GetString(buff, 0, nbytes);
+                output = Encoding.Default.GetString(buff, 0, buff.Length);
                 Server.queues[index].Enqueue(output);
                 Console.WriteLine($"사용자 {index} : {output}");
                 Array.Clear(buff, 0x0, buff.Length);

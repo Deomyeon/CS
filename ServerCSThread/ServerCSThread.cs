@@ -47,20 +47,11 @@ namespace ServerCSThread
 
         public void ThreadReceive()
         {
-            int nbytes = 0;
             string output;
             while (clientSock.Connected)
             {
                 clientSock.Receive(buff, 0, buff.Length, SocketFlags.None);
-                for (int i = 0; i < buff.Length; i++)
-                {
-                    if (buff[i] == 0)
-                    {
-                        nbytes = i;
-                        break;
-                    }
-                }
-                output = Encoding.Default.GetString(buff, 0, nbytes);
+                output = Encoding.Default.GetString(buff, 0, buff.Length);
 
                 Console.WriteLine($"클라이언트 : {output}");
                 Array.Clear(buff, 0x0, buff.Length);
