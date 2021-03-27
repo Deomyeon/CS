@@ -15,10 +15,27 @@ namespace MultiServerCSThread
         static public Helper[] helpers;
         static public bool[]   clientConnect;
 
+        static public int roomsize;
+
+        static public void ThreadBroadCast()
+        {
+            while (true)
+            {
+                string text;
+                text = Console.ReadLine();
+                byte[] outbuff = Encoding.UTF8.GetBytes(text);
+                for (int i = 0; i < roomsize; i++)
+                {
+                    if (clientConnect[i])
+                    {
+                        helpers[i].clientSock.Send(outbuff, 0, outbuff.Length, SocketFlags.None);
+                    }
+                }
+            }
+        }
         static void Main(string[] args)
         {
-            int roomsize = -1;
-            string text;
+            roomsize = -1;
             Console.WriteLine("몇명 들어올 수 있게 하시겠어요?");
             while (true)
             {
@@ -34,6 +51,9 @@ namespace MultiServerCSThread
             queues = new Queue<string>[roomsize];
             helpers = new Helper[roomsize];
             clientConnect = new bool[roomsize];
+
+            Thread broadcast = new Thread(new ThreadStart(ThreadBroadCast));
+            broadcast.Start();
 
             for (int i = 0; i < roomsize; i++)
             {
@@ -61,18 +81,7 @@ namespace MultiServerCSThread
                 }
             }
 
-            while (true)
-            {
-                text = Console.ReadLine();
-                byte[] outbuff = Encoding.Default.GetBytes(text);
-                for (int i = 0; i < roomsize; i++)
-                {
-                    if (clientConnect[i])
-                    {
-                        helpers[i].clientSock.Send(outbuff, 0, outbuff.Length, SocketFlags.None);
-                    }
-                }
-            }
+            
         }
     }
 
@@ -104,7 +113,7 @@ namespace MultiServerCSThread
                 {
                     output = Server.queues[index].Peek();
                     Server.queues[index].Dequeue();
-                    byte[] outbuff = Encoding.Default.GetBytes(output);
+                    byte[] outbuff = Encoding.UTF8.GetBytes(output);
                     clientSock.Send(outbuff, 0, outbuff.Length, SocketFlags.None);
                 }
             }
@@ -115,7 +124,7 @@ namespace MultiServerCSThread
             while (clientSock.Connected)
             {
                 clientSock.Receive(buff, 0, buff.Length, SocketFlags.None);
-                output = Encoding.Default.GetString(buff, 0, buff.Length);
+                output = Encoding.UTF8.GetString(buff, 0, buff.Length).Split('\0')[0];
                 Server.queues[index].Enqueue(output);
                 Console.WriteLine($"사용자 {index} : {output}");
                 Array.Clear(buff, 0x0, buff.Length);

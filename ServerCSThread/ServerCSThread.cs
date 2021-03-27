@@ -33,7 +33,7 @@ namespace ServerCSThread
             while (clientSock.Connected)
             {
                 s = Console.ReadLine();
-                byte[] outbuff = Encoding.Default.GetBytes(s);
+                byte[] outbuff = Encoding.UTF8.GetBytes(s);
                 clientSock.Send(outbuff, 0, outbuff.Length, SocketFlags.None);
             }
             clientSock.Close();
@@ -51,7 +51,7 @@ namespace ServerCSThread
             while (clientSock.Connected)
             {
                 clientSock.Receive(buff, 0, buff.Length, SocketFlags.None);
-                output = Encoding.Default.GetString(buff, 0, buff.Length);
+                output = Encoding.UTF8.GetString(buff, 0, buff.Length).Split('\0')[0];
 
                 Console.WriteLine($"클라이언트 : {output}");
                 Array.Clear(buff, 0x0, buff.Length);
