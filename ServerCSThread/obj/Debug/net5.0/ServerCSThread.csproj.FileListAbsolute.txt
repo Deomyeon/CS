@@ -1,0 +1,16 @@
+C:\Users\ROG\Desktop\C#\ServerCSThread\bin\Debug\net5.0\ServerCSThread.exe
+C:\Users\ROG\Desktop\C#\ServerCSThread\bin\Debug\net5.0\ServerCSThread.deps.json
+C:\Users\ROG\Desktop\C#\ServerCSThread\bin\Debug\net5.0\ServerCSThread.runtimeconfig.json
+C:\Users\ROG\Desktop\C#\ServerCSThread\bin\Debug\net5.0\ServerCSThread.runtimeconfig.dev.json
+C:\Users\ROG\Desktop\C#\ServerCSThread\bin\Debug\net5.0\ServerCSThread.dll
+C:\Users\ROG\Desktop\C#\ServerCSThread\bin\Debug\net5.0\ref\ServerCSThread.dll
+C:\Users\ROG\Desktop\C#\ServerCSThread\bin\Debug\net5.0\ServerCSThread.pdb
+C:\Users\ROG\Desktop\C#\ServerCSThread\obj\Debug\net5.0\ServerCSThread.csprojAssemblyReference.cache
+C:\Users\ROG\Desktop\C#\ServerCSThread\obj\Debug\net5.0\ServerCSThread.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ROG\Desktop\C#\ServerCSThread\obj\Debug\net5.0\ServerCSThread.AssemblyInfoInputs.cache
+C:\Users\ROG\Desktop\C#\ServerCSThread\obj\Debug\net5.0\ServerCSThread.AssemblyInfo.cs
+C:\Users\ROG\Desktop\C#\ServerCSThread\obj\Debug\net5.0\ServerCSThread.csproj.CoreCompileInputs.cache
+C:\Users\ROG\Desktop\C#\ServerCSThread\obj\Debug\net5.0\ServerCSThread.dll
+C:\Users\ROG\Desktop\C#\ServerCSThread\obj\Debug\net5.0\ref\ServerCSThread.dll
+C:\Users\ROG\Desktop\C#\ServerCSThread\obj\Debug\net5.0\ServerCSThread.pdb
+C:\Users\ROG\Desktop\C#\ServerCSThread\obj\Debug\net5.0\ServerCSThread.genruntimeconfig.cache

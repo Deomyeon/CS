@@ -15,9 +15,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ROG\\Desktop\\C#\\ClientCSThread\\C#.csproj",
-      "projectName": "C#",
-      "projectPath": "C:\\Users\\ROG\\Desktop\\C#\\ClientCSThread\\C#.csproj",
+      "projectUniqueName": "C:\\Users\\ROG\\Desktop\\C#\\ClientCSThread\\ClientCSThread.csproj",
+      "projectName": "ClientCSThread",
+      "projectPath": "C:\\Users\\ROG\\Desktop\\C#\\ClientCSThread\\ClientCSThread.csproj",
       "packagesPath": "C:\\Users\\ROG\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\ROG\\Desktop\\C#\\ClientCSThread\\obj\\",
       "projectStyle": "PackageReference",
